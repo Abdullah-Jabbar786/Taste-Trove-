@@ -1,0 +1,104 @@
+/* Reviews Page Styles */
+
+/* Page Header */
+.page-header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 3rem 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    color: var(--white);
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.page-header .quote {
+    font-style: italic;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Reviews Grid */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.review-card {
+    background: var(--card-bg);
+    padding: 2.5rem 2rem;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(139, 69, 19, 0.05);
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profile-pic {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent-color);
+    padding: 3px;
+    /* Frame effect */
+    background: white;
+}
+
+.profile-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.profile-header .handle {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 0;
+    font-weight: 500;
+}
+
+.review-card hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #eee, transparent);
+    margin: 1rem 0 1.5rem 0;
+    width: 100%;
+}
+
+.review-text {
+    font-style: italic;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.stars {
+    color: #FFD700;
+    /* Gold */
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}

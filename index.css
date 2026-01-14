@@ -1,0 +1,52 @@
+/* Page Specific Styles for Index (Home) */
+
+/* Team Box */
+/* Team Box */
+.team-box {
+    background-color: var(--card-bg);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    margin: 3rem auto;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition);
+}
+
+.team-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.team-box h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.team-box p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.team-box strong {
+    color: var(--primary-color);
+    margin-right: 5px;
+}
+
+/* Background Image Container */
+/* Background Image Container */
+.Background-image {
+    border: none;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+    margin: 2rem 0;
+}
+
+.Background-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}

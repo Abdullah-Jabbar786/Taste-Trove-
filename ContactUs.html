@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste Trove | Contact Us</title>
+    <link rel="shortcut icon" href="images/Taste Trove.jpg" type="image/x-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/TT.jpg" alt="Taste Trove Logo">
+        </div>
+
+        <button class="menu-toggle" aria-label="Toggle Navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="ContactUs.html">Contact</a></li>
+                <li><a href="Review.html">Reviews</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Contact Us</h1>
+        <p>For any complaint or suggestion please leave us a message below.</p>
+    </div>
+
+    <div class="container contact-container">
+
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+            <h2>Send a Message</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name*" id="fullname" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email*" id="email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Phone*" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" id="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Now</button>
+            </form>
+        </section>
+
+        <!-- Location & Info -->
+        <section class="contact-info-section">
+            <div class="info-card">
+                <h3>Our Location</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Tariq Road Block 2 PECHS, Karachi</p>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.7414427762947!2d67.05798937520053!3d24.872678877921242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e923adec49d%3A0xcc2dbd936f1c5627!2sTariq%20Rd%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1731683791382!5m2!1sen!2s"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <button onclick="window.open('https://maps.app.goo.gl/REaWpX8cNMF77iFb6', '_blank')" class="map-btn">
+                    Open in Google Maps
+                </button>
+            </div>
+
+            <div class="info-card">
+                <h3>Contact Info</h3>
+                <p><strong>Call us at:</strong> 021-12345678</p>
+                <div class="socials">
+                    <h4>Socials</h4>
+                    <a href="https://www.facebook.com/login" target="_blank" class="social-icon"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h3>Get The App</h3>
+                <div class="app-links">
+                    <a href="#" target="_blank"><img src="images/playbut.png" alt="Get it on Google Play"></a>
+                    <a href="#" target="_blank"><img src="images/app.svg" alt="Download on the App Store"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Taste Trove. All rights reserved.</p>
+            <a href="#" class="footer-link">Privacy Policy</a> |
+            <a href="#" class="footer-link">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
